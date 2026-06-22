@@ -1,16 +1,16 @@
 # Smart Fun Run Central Dashboard System
 
 ## 1. Project Component & Overview
-Component Name:** Centralized IoT & OS Real-Time Race Dashboard [cite: 43]
+Component Name: Centralized IoT & OS Real-Time Race Dashboard 
 
-[cite_start]This system acts as the core orchestration backend and visual interface for the Smart Fun Run event[cite: 7]. [cite_start]Built using a multithreaded Python Flask framework, the server concurrently handles multiple live tracking data feeds[cite: 36, 53]. [cite_start]It synchronizes online runner registrations directly from a live Google Sheet endpoint, listens for real-time runner checkpoint tags pulled from a Firebase Real-Time Database, and maintains synchronized state updates[cite: 53, 56]. [cite_start]To prevent race conditions and data corruption across these concurrent processing workers, the system implements robust OS Mutex synchronization mechanisms (`data_lock`), exposing data seamlessly to a dynamically updating Cyberpunk HUD web front-end[cite: 55].
+This system acts as the core orchestration backend and visual interface for the Smart Fun Run event. Built using a multithreaded Python Flask framework, the server concurrently handles multiple live tracking data feeds. It synchronizes online runner registrations directly from a live Google Sheet endpoint, listens for real-time runner checkpoint tags pulled from a Firebase Real-Time Database, and maintains synchronized state updates. To prevent race conditions and data corruption across these concurrent processing workers, the system implements robust OS Mutex synchronization mechanisms (`data_lock`), exposing data seamlessly to a dynamically updating Cyberpunk HUD web front-end.
 
 ## 2. Team Members & Roles
 [cite_start]This repository represents the unified engineering efforts of our 9-member sub-group across both IoT and OS disciplines[cite: 6, 44]:
 
 | Name | Matric Number | Core Project Role | Discipline |
 | :--- | :--- | :--- | :--- |
-| **[Your Name Here]** | [Your Matric] | [cite_start]OS Lead / Backend Architect [cite: 44] | OS (BNF32303) |
+| [Your Name Here] | [Your Matric] | [cite_start]OS Lead / Backend Architect [cite: 44] | OS (BNF32303) |
 | [OS Member 2] | [Matric 2] | OS Concurrency Developer | OS (BNF32303) |
 | [OS Member 3] | [Matric 3] | UI/UX Frontend Engineer | OS (BNF32303) |
 | [OS Member 4] | [Matric 4] | Data Pipeline Analyst | OS (BNF32303) |
