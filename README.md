@@ -21,7 +21,7 @@ Follow these instructions to boot up and test the integrated system locally:
 
 ### Prerequisites
 Ensure you have Python 3.x installed along with the required execution dependencies:
-```bash
+
 pip install flask pandas openpyxl requests
 
 Step 1: Fire up the OS Backend Server
