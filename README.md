@@ -1,7 +1,7 @@
 # Smart Fun Run Central Dashboard System
 
 ## 1. Project Component & Overview
-[cite_start]**Component Name:** Centralized IoT & OS Real-Time Race Dashboard [cite: 43]
+Component Name:** Centralized IoT & OS Real-Time Race Dashboard [cite: 43]
 
 [cite_start]This system acts as the core orchestration backend and visual interface for the Smart Fun Run event[cite: 7]. [cite_start]Built using a multithreaded Python Flask framework, the server concurrently handles multiple live tracking data feeds[cite: 36, 53]. [cite_start]It synchronizes online runner registrations directly from a live Google Sheet endpoint, listens for real-time runner checkpoint tags pulled from a Firebase Real-Time Database, and maintains synchronized state updates[cite: 53, 56]. [cite_start]To prevent race conditions and data corruption across these concurrent processing workers, the system implements robust OS Mutex synchronization mechanisms (`data_lock`), exposing data seamlessly to a dynamically updating Cyberpunk HUD web front-end[cite: 55].
 
