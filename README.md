@@ -14,6 +14,8 @@ This repository represents the unified engineering efforts of our 9-member sub-g
 | AHMAD NAZIM BIN ALAWI | CN230110 | DASHBOARD FLASK Developer | OS (BNF32303) & IOT (BNF44403) |
 | DANESH A/L AJINTA KUMAR  | CN230193 | DASHBOARD FIREBASE Developer | IOT (BNF44403) |
 
+other tema member as runner and media staff
+
 ## 3. Quick Start Guide
 Follow these instructions to boot up and test the integrated system locally:
 
