@@ -24,8 +24,10 @@ Ensure you have Python 3.x installed along with the required execution dependenc
 ```bash
 pip install flask pandas openpyxl requests
 
-Step 1: Fire up the OS Backend ServerNavigate into the Operating System workspace directory and launch the multithreaded Flask server:  Bashcd src_os
+Step 1: Fire up the OS Backend Server
+Navigate into the Operating System workspace directory and launch the multithreaded Flask server:  Bashcd src_os
 python gateway_server.py
-The server will initialize on http://127.0.0.1:5000 and immediately launch parallel daemon threads to fetch online registration entries and Firebase track logs.  Step 2: Access the Dashboard UIOpen your web browser.Navigate to: http://127.0.0.1:5000/.  The real-time leaderboard entries, checkpoint logs, and registration data will automatically update at timed loop intervals.Step 3: Initialize the Edge IoT HardwareConnect the ESP32 microcontroller development board containing your sensor array to your computer.  Open src_iot/sensor_read.ino using the Arduino IDE.  Verify the local Wi-Fi credentials match your gateway network and flash the firmware onto the hardware chip.  
+The server will initialize on http://127.0.0.1:5000 and immediately launch parallel daemon threads to fetch online registration entries and Firebase track logs.
 
-
+Step 2: Access the Dashboard UIOpen your web browser.Navigate to: http://127.0.0.1:5000/.
+The real-time leaderboard entries, checkpoint logs, and registration data will automatically update at timed loop intervals.Step 3: Initialize the Edge IoT HardwareConnect the ESP32 microcontroller development board containing your sensor array to your computer.  Open src_iot/sensor_read.ino using the Arduino IDE.  Verify the local Wi-Fi credentials match your gateway network and flash the firmware onto the hardware chip.  
